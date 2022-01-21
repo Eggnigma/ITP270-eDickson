@@ -1,0 +1,86 @@
+    1  lsb_release -a
+    2  cd ../..
+    3  cd ..
+    4  cd ~
+    5  sudo apt update 
+    6  sudo apt list --upgradeable
+    7  sudo apt upgrade
+    8  clear
+    9  cd ITP270Lecture
+   10  ls
+   11  cat nano.14778.save
+   12  nano nano.14778.save
+   13  rmdir justAfile.py
+   14  rm justAfile.py
+   15  nano nano.14778.save
+   16  rm nano.14778.save
+   17  nano ITP270Lecture2.py
+   18  cat ITP270Lecture2.py
+   19  python3 ITP270Lecture2.py
+   20  nano ITP270Lecture2.py
+   21  python3 ITP270Lecture2.py
+   22  nano ITP270Lecture2.py
+   23  python3 ITP270Lecture2.py
+   24  nano ITP270Lecture2.py
+   25  python3 ITP270Lecture2.py
+   26  nano ITP270Lecture2.py
+   27  python3 ITP270Lecture2.py
+   28  clear
+   29  git init
+   30  ls
+   31  ll
+   32  clear
+   33  ls
+   34  cd ..
+   35  ls
+   36  git clone https://github.com/Eggnigma/ITP270-eDickson.git
+   37  ls
+   38  cd ITP270-eDickson
+   39  ls
+   40  cd ..
+   41  cd ITP270Lecture
+   42  ls
+   43  clear
+   44  man 
+   45  man man 
+   46  man
+   47  man cp
+   48  clear
+   49  man cp
+   50  clear
+   51  cp ITP270Lecture2.py ~/ITP270-eDickson
+   52  cd..
+   53  cd ..
+   54  ls
+   55  cd ITP270-eDickson
+   56  ls
+   57  cd /usr/kali/itp270lecture
+   58  cd ..
+   59  cd /usr/kali/itp270lecture
+   60  cd /home/kali/itp270lecture
+   61  cd /home/itp270lecture
+   62  cd /~/itp270lecture
+   63  cd ~/ITP270Lecture
+   64  cd /home/kali/ITP270Lecture
+   65  cd ..
+   66  cd /home/kali/itp270lecture
+   67  cd /home/kali/ITP270Lecture
+   68  cd ..
+   69  cd /home/kali/ITP270-eDickson
+   70  cd ..
+   71  clear
+   72  ls
+   73  cd /home/kali/ITP270-eDickson
+   74  ls
+   75  git status
+   76  git log --stat -M
+   77  git add -A
+   78  git status
+   79  clear
+   80  git commit -m "Adding the file ITP270Lecture2.py"
+   81  git status
+   82  git push
+   83  history cat
+   84  cd ..
+   85  history cat
+   86  history 
