@@ -1,0 +1,449 @@
+    1  clear
+    2  pwd
+    3  sudo su -
+    4  clear
+    5  ll
+    6  ls
+    7  pwd
+    8  clear
+    9  python3 --version
+   10  git -version
+   11  git--version
+   12  git --version
+   13  clear
+   14  mozilla
+   15  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+   16  wget -O-  https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor | sudo tee /usr/share/keyrings/Google-archive-keyring.gpg
+   17  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+   18  sudo apt update
+   19  clear
+   20  sudo apt install google-chrome-stable
+   21  clear
+   22  chrome
+   23  google-chrome
+   24  history
+   25  clear
+   26  ssh -X kali@ec2-3-88-225-180.compute-1.amazonaws.com
+   27  clear
+   28  google-chrome
+   29  google-chrome --version
+   30  whereis google-chrome
+   31  /usr/bin/google-chrome
+   32  google-chrome www.google.com
+   33  sudo su -
+   34  logout
+   35  clear
+   36  git --verison
+   37  clear
+   38  pwd
+   39  lsb_release -a
+   40  clear
+   41  lsb_release -a
+   42  sudo apt update
+   43  clear
+   44  git --verison
+   45  git --version
+   46  clear
+   47  python3 --version
+   48  clear
+   49  git config --global user.name "Shahpar Islam"
+   50  git config --global user.email "si2382@email.vccs.edu"
+   51  git config --global color.ui auto
+   52  clear
+   53  pwd
+   54  mkdir ITP270
+   55  ls
+   56  cd ITP270
+   57  clear
+   58  git init
+   59  clear
+   60  git clone Islam-shahpar/2.-CLI-Scripting
+   61  git@github.com:Islam-shahpar/2.-CLI-Scripting.git
+   62  git clone https://github.com/Islam-shahpar/2.-CLI-Scripting.git
+   63  clear
+   64  ls
+   65  cd 2.-CLI-Scripting
+   66  git status
+   67  clear
+   68  git status
+   69  clear
+   70  ls
+   71  nano userInput.py
+   72  touch userInput.py
+   73  nano userInput.py
+   74  cat userInput.py
+   75  clear
+   76  python3 userInput.py
+   77  clear
+   78  nano userInput.py
+   79  python3 userInput.py
+   80  ll
+   81  chmod +x userInput.py
+   82  ./userInput.py
+   83  clear
+   84  nano userInput.py
+   85  ./userInput.py
+   86  nano userInput.py
+   87  ./userInput.py
+   88  clear
+   89  nano userInput.py
+   90  ./userInput.py
+   91  nano userInput.py
+   92  ./userInput.py
+   93  clear
+   94  nano userInput.py
+   95  ./userInput.py
+   96  clear
+   97  git status
+   98  git add userInput.py
+   99  git status
+  100  clear
+  101  git commit -m "New file user input has been added"
+  102  git push
+  103  clear
+  104  git log
+  105  clear
+  106  git status
+  107  git pull
+  108  git sta
+  109  git status
+  110  clear
+  111  ls
+  112  nano newPracticeFile.py
+  113  git branch newBranch
+  114  sit status
+  115  clear
+  116  git status
+  117  git checkout newBranch
+  118  git status
+  119  nano newBranchCode.py
+  120  ls
+  121  git status
+  122  clear
+  123  git add -A
+  124  git commit -m "New file added into the new branch"
+  125  git push 
+  126  git push --set-upstream origin newBranch
+  127  clear
+  128  git status
+  129  git merge newBranch
+  130  git checkout master
+  131  git status
+  132  clear
+  133  history
+  134  history > git_commands.txt
+  135  ls
+  136  cat git_commands.txt
+  137  clear
+  138  git --version
+  139  python --version
+  140  python3 --version
+  141  clear
+  142  ls
+  143  pwd
+  144  clear
+  145  ls
+  146  clear
+  147  pwd
+  148  ll
+  149  clear
+  150  exit
+  151  clear
+  152  lsb_release -a
+  153  sudo apt update
+  154  clear
+  155  python3 --version
+  156  git --version
+  157  clear
+  158  git config --global user.name "Shahpar Islam"
+  159  git config --global user.email "si2382@email.vccs.edu"
+  160  git config --global color.ui auto
+  161  pwd
+  162  ll
+  163  ls
+  164  clear
+  165  ll
+  166  mkdir ITP270Lecture
+  167  ls
+  168  cd ITP270Lecture
+  169  ls
+  170  clear
+  171  nano ITP270Lecture2.py
+  172  touch justAFile.py
+  173  ls
+  174  cat justAFile.py
+  175  nano ITP270Lecture2.py
+  176  clear
+  177  cat ITP270Lecture2.py
+  178  python3 ITP270Lecture2.py
+  179  clear
+  180  python3 ITP270Lecture2.py
+  181  nano ITP270Lecture2.py
+  182  git init
+  183  clear
+  184  ls
+  185  cd ..
+  186  clear
+  187  ls
+  188  pwd
+  189  clear
+  190  git clone https://github.com/yu-shahpar/ITP270-Shahpar.git
+  191  ls
+  192  cd ITP270
+  193  pwd
+  194  cd ..
+  195  pwd
+  196  clear
+  197  ls
+  198  cd ITP270Lecture
+  199  ls
+  200  cat ITP270Lecture2.py
+  201  clear
+  202  ls
+  203  help cp
+  204  man cp
+  205  clear
+  206  ls
+  207  cp ITP270Lecture2.py ~/ITP270-Shahpar/
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd ITP270-Shahpar
+  212  ls
+  213  cd ..
+  214  pwd
+  215  clear
+  216  ls
+  217  cd ITP270-Shahpar
+  218  ls
+  219  git status
+  220  clear
+  221  git add -A
+  222  git status
+  223  git commit -m "Adding the file ITP270Lecture2.py"
+  224  git status
+  225  clear
+  226  git push
+  227  clear
+  228  history
+  229  clear
+  230  history > git_commands_class.txt
+  231  ls
+  232  cat git_commands_class.txt
+  233  clear
+  234  nano git_commands_class.txt
+  235  ls
+  236  mkdir Lecture2
+  237  git status
+  238  cp git_commands_class.txt /Lecture2
+  239  clear
+  240  ll
+  241  umask 0777 Lecture2
+  242  umask 0666 Lecture2
+  243  chmod +x Lecture2
+  244  ll
+  245  chmod +w Lecture2
+  246  ll
+  247  clear
+  248  cp git_commands_class.txt ~/Lecture2
+  249  ll
+  250  cd Lecture2
+  251  ls
+  252  cd ..
+  253  python3 ITP270Lecture2.py
+  254  clear
+  255  ./ITP270Lecture2.py
+  256  ll
+  257  chmod +x ITP270Lecture2.py
+  258  ./ITP270Lecture2.py
+  259  clear
+  260  exit
+  261  clear
+  262  ls
+  263  cd ITP270-Shahpar
+  264  ls
+  265  python3 ITP270Lecture2.py
+  266  nano ITP270Lecture2.py
+  267  clear
+  268  cd ..
+  269  pwd
+  270  lsb_release -a
+  271  clear
+  272  python3 --version
+  273  git --version
+  274  sudo su - 
+  275  clear
+  276  pwd
+  277  cd ..
+  278  pwd
+  279  ls
+  280  cd ..
+  281  clear
+  282  ll
+  283  sudo su -
+  284  exit
+  285  clear
+  286  python3 --version
+  287  github --version
+  288  git --version
+  289  clear
+  290  ls
+  291  cd ITP270-Shahpar
+  292  ls
+  293  nano Lecture3.txt
+  294  clear
+  295  nano Lecture3.txt
+  296  cat Lecture3.txt
+  297  clear
+  298  git status
+  299  git add -A
+  300  git status
+  301  clear
+  302  git commit -m "Adding the Lecture3 file with folder structure"
+  303  git push
+  304  pwd
+  305  git status
+  306  clear
+  307  git push -u origin master
+  308  ls
+  309  rm -r Lecture2
+  310  git push -u origin master
+  311  git push
+  312  clear
+  313  cd ..
+  314  ls
+  315  rm -r ITP270-Shahpar
+  316  clear
+  317  ls
+  318  git clone https://github.com/yu-shahpar/ITP270-Shahpar.git
+  319  ls
+  320  clear
+  321  pwd
+  322  mkdir Movies
+  323  pwd
+  324  cd Movies
+  325  ls
+  326  clear
+  327  mkdir Action
+  328  mkdir Comedy
+  329  mkdir Drama
+  330  ls
+  331  clear
+  332  touch genres.txt
+  333  ls
+  334  cd Action
+  335  mkdir scifi
+  336  cd scifi
+  337  touch terminator.txt
+  338  ls
+  339  pwd
+  340  clear
+  341  cd ..
+  342  pwd
+  343  mkdir superhero
+  344  touch batman.txt
+  345  touch matrix-reloaded.txt
+  346  touch matrix-revolutions.txt
+  347  touch matrix.txt
+  348  touch superman.txt
+  349  touch wonderwoman.txt
+  350  clear
+  351  ls
+  352  cd ..
+  353  cd Comedy
+  354  mkdir slapstick
+  355  mkdir satire
+  356  touch the-office.txt
+  357  clear
+  358  ls
+  359  pwd
+  360  clear
+  361  cd slapstick
+  362  touch waterboy.txt
+  363  touch zoolander.txt
+  364  ls
+  365  cd ..
+  366  cd satire
+  367  touch fightclub.txt
+  368  clear
+  369  mkdir the-office
+  370  rm -r the-office
+  371  mkdir the-office.txt
+  372  ls
+  373  rm -r the-office.txt
+  374  ls
+  375  clear
+  376  ls
+  377  cd ..
+  378  ls
+  379  cd Drama
+  380  clear
+  381  ls
+  382  mkdir biopic
+  383  mkdir historical
+  384  clear
+  385  ls
+  386  cd biopic
+  387  touch cleopatra.txt
+  388  touch lincoln.txt
+  389  touch frida.txt
+  390  touch notorious.txt
+  391  touch ray.txt
+  392  ls
+  393  cd ..
+  394  clear
+  395  cd ..
+  396  pwd
+  397  ls
+  398  ll
+  399  clear
+  400  tree
+  401  clear
+  402  cd Movies
+  403  ls
+  404  cd Drama
+  405  ls
+  406  cd historical
+  407  touch gladiator.txt
+  408  touch selma.txt
+  409  clear
+  410  ls
+  411  cd ..
+  412  touch genres.txt
+  413  tree
+  414  clear
+  415  pwd
+  416  cd ..
+  417  ls
+  418  ls -a
+  419  ls -l
+  420  clear
+  421  ls -t
+  422  ls -alt
+  423  ls
+  424  clear
+  425  pwd
+  426  ls
+  427  cd Movies
+  428  ls
+  429  cd Action/
+  430  ls
+  431  clear
+  432  cat superman.txt
+  433  nano superman.txt
+  434  cat superman.txt
+  435  clear
+  436  pwd
+  437  tree
+  438  cd ..
+  439  tree
+  440  clear
+  441  nano /home/kali/Movies/Comedy/satire/fight-club.txt
+  442  cat /home/kali/Movies/Comedy/satire/fight-club.txt
+  443  cp /home/kali/Movies/Action/scifi/terminator.txt /home/kali/Movies/Drama/historical
+  444  pwd
+  445  ls /home/kali/Movies/Drama/historical
+  446  clear
+  447  cd ..
+  448  pwd
+  449  ls

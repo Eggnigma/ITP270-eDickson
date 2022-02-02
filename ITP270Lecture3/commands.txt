@@ -1,449 +1,543 @@
-    1  clear
-    2  pwd
-    3  sudo su -
-    4  clear
-    5  ll
-    6  ls
-    7  pwd
-    8  clear
-    9  python3 --version
-   10  git -version
-   11  git--version
-   12  git --version
-   13  clear
-   14  mozilla
-   15  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-   16  wget -O-  https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor | sudo tee /usr/share/keyrings/Google-archive-keyring.gpg
-   17  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-   18  sudo apt update
-   19  clear
-   20  sudo apt install google-chrome-stable
-   21  clear
-   22  chrome
-   23  google-chrome
-   24  history
-   25  clear
-   26  ssh -X kali@ec2-3-88-225-180.compute-1.amazonaws.com
-   27  clear
-   28  google-chrome
-   29  google-chrome --version
-   30  whereis google-chrome
-   31  /usr/bin/google-chrome
-   32  google-chrome www.google.com
-   33  sudo su -
-   34  logout
-   35  clear
-   36  git --verison
-   37  clear
-   38  pwd
-   39  lsb_release -a
-   40  clear
-   41  lsb_release -a
-   42  sudo apt update
-   43  clear
-   44  git --verison
-   45  git --version
-   46  clear
-   47  python3 --version
-   48  clear
-   49  git config --global user.name "Shahpar Islam"
-   50  git config --global user.email "si2382@email.vccs.edu"
-   51  git config --global color.ui auto
-   52  clear
-   53  pwd
-   54  mkdir ITP270
+    1  mkdir Movies
+    2  ls 
+    3  cd Movies
+    4  mkdir Action
+    5  mkdir Comedy
+    6  mkdir Drama
+    7  touch genres.txt
+    8  ls
+    9  cd Action
+   10  mkdir scifi
+   11  mkdir superhero
+   12  touch batman.txt
+   13  touch matrix-reloded.txt
+   14  touch matrix-revolutions.txt
+   15  touch matrix.txt
+   16  touch superman.txt
+   17  touch wonderwoman.txt
+   18  ls
+   19  cd scifi
+   20  touch terminator.txt
+   21  cd ..
+   22  ls
+   23  cd Comedy
+   24  mkdir slapstick
+   25  mkdir satire
+   26  touch the-office.txt
+   27  ls
+   28  cd satire
+   29  touch fightclub.txt
+   30  cd ..
+   31  cd slapstick
+   32  ls
+   33  touch waterboy.txt
+   34  touch zoolander.txt
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd Drama
+   39  ls
+   40  mkdir biopic
+   41  mkdir historical
+   42  ls
+   43  cd biopic
+   44  touch cleopatra.txt
+   45  touch lincoln.txt
+   46  touch frida.txt
+   47  touch notorious.txt
+   48  touch ray.txt
+   49  ls
+   50  cd 
+   51  ls
+   52  cd Movies
+   53  ls
+   54  cd Drama/historical
    55  ls
-   56  cd ITP270
-   57  clear
-   58  git init
-   59  clear
-   60  git clone Islam-shahpar/2.-CLI-Scripting
-   61  git@github.com:Islam-shahpar/2.-CLI-Scripting.git
-   62  git clone https://github.com/Islam-shahpar/2.-CLI-Scripting.git
-   63  clear
-   64  ls
-   65  cd 2.-CLI-Scripting
-   66  git status
+   56  touch gladiator.txt
+   57  touch selma.txt
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd ..
+   62  ls
+   63  ls Action
+   64  ll Action
+   65  ll Comedy
+   66  ll Drama
    67  clear
-   68  git status
+   68  ll
    69  clear
    70  ls
-   71  nano userInput.py
-   72  touch userInput.py
-   73  nano userInput.py
-   74  cat userInput.py
-   75  clear
-   76  python3 userInput.py
-   77  clear
-   78  nano userInput.py
-   79  python3 userInput.py
-   80  ll
-   81  chmod +x userInput.py
-   82  ./userInput.py
-   83  clear
-   84  nano userInput.py
-   85  ./userInput.py
-   86  nano userInput.py
-   87  ./userInput.py
-   88  clear
-   89  nano userInput.py
-   90  ./userInput.py
-   91  nano userInput.py
-   92  ./userInput.py
-   93  clear
-   94  nano userInput.py
-   95  ./userInput.py
-   96  clear
-   97  git status
-   98  git add userInput.py
+   71  ll Action
+   72  ll Comedy
+   73  ll Drama
+   74  mv 
+   75  mv --help
+   76  tre
+   77  tree
+   78  sudo apt install tree
+   79  tree
+   80  cd ..
+   81  ls
+   82  cd ITP270-eDickson
+   83  ls
+   84  cd ITP270Lecture1
+   85  ls
+   86  cd ..
+   87  cd ITP270Lecture1
+   88  cd ../ITP270Lecture2
+   89  ls
+   90  nano commands.txt
+   91  cat commands.txt
+   92  cd ..
+   93  git status
+   94  git add -A "Adding the file commands.txt and adding the directory ITP270Lecutre2"
+   95  git add -A "Adding the file commands.txt" "Adding the directory ITP270Lecutre2"
+   96  git add "Adding the file commands.txt" "Adding the directory ITP270Lecutre2"
+   97  git add ITP270Lecture2
+   98  git staus
    99  git status
-  100  clear
-  101  git commit -m "New file user input has been added"
-  102  git push
-  103  clear
-  104  git log
-  105  clear
-  106  git status
-  107  git pull
-  108  git sta
+  100  cd ITP270Lecture2
+  101  git stauts
+  102  git status
+  103  git add commands.txt
+  104  cd ..
+  105  git add itp270lecture2
+  106  git stauts
+  107  git status
+  108  git add ITP270Lecture2
   109  git status
-  110  clear
-  111  ls
-  112  nano newPracticeFile.py
-  113  git branch newBranch
-  114  sit status
-  115  clear
+  110  cd ITP270Lecture
+  111  cd ITP270Lecture2
+  112  git status
+  113  cd ..
+  114  git status
+  115  git add "ITP270Lecture2"
   116  git status
-  117  git checkout newBranch
-  118  git status
-  119  nano newBranchCode.py
-  120  ls
+  117  git commit -a "Adding the directory ITP270Lecture2"
+  118  git commit -A "Adding the directory ITP270Lecture2"
+  119  git status
+  120  git add ITP270Lecture2/
   121  git status
-  122  clear
-  123  git add -A
-  124  git commit -m "New file added into the new branch"
-  125  git push 
-  126  git push --set-upstream origin newBranch
-  127  clear
+  122  cd ITP270Lecture2
+  123  git commit -m "Adding this file commands.txt"
+  124  cd ..
+  125  git add ITP270Lecture2
+  126  git status
+  127  git commit -m "Adding this directory ITP270Lecture2"
   128  git status
-  129  git merge newBranch
-  130  git checkout master
-  131  git status
-  132  clear
-  133  history
-  134  history > git_commands.txt
-  135  ls
-  136  cat git_commands.txt
-  137  clear
-  138  git --version
-  139  python --version
-  140  python3 --version
-  141  clear
+  129  git push 
+  130  git commit -m "Adding this file ITP270Lecture2"
+  131  cd ITP270Lecture2
+  132  ls
+  133  touch yyy.txt
+  134  git add yyy.txt
+  135  cd ..
+  136  git add itp270lecture2/
+  137  ls
+  138  git status
+  139  cd ITP270Lecture2
+  140  rm yyy.txt
+  141  touch y
   142  ls
-  143  pwd
-  144  clear
-  145  ls
-  146  clear
-  147  pwd
-  148  ll
-  149  clear
-  150  exit
-  151  clear
-  152  lsb_release -a
-  153  sudo apt update
-  154  clear
-  155  python3 --version
-  156  git --version
-  157  clear
-  158  git config --global user.name "Shahpar Islam"
-  159  git config --global user.email "si2382@email.vccs.edu"
-  160  git config --global color.ui auto
-  161  pwd
-  162  ll
-  163  ls
-  164  clear
-  165  ll
-  166  mkdir ITP270Lecture
-  167  ls
-  168  cd ITP270Lecture
-  169  ls
-  170  clear
-  171  nano ITP270Lecture2.py
-  172  touch justAFile.py
-  173  ls
-  174  cat justAFile.py
-  175  nano ITP270Lecture2.py
-  176  clear
-  177  cat ITP270Lecture2.py
-  178  python3 ITP270Lecture2.py
-  179  clear
-  180  python3 ITP270Lecture2.py
-  181  nano ITP270Lecture2.py
-  182  git init
-  183  clear
+  143  rm y
+  144  touch yyy.txt
+  145  cd ..
+  146  git add ITP270Lecture2/yyy.txt
+  147  cd ITP270Lecture2
+  148  ls
+  149  git add yyy
+  150  ls
+  151  git add yyy.txt
+  152  git status
+  153  git restore --staged yyy.txt
+  154  git status
+  155  cd ..
+  156  git restore --stage ITP270Lecture2
+  157  git status
+  158  cd ITP270Lecture2
+  159  git add yyy.txt
+  160  git commit -m "Adding the file yyy.txt"
+  161  git status
+  162  cd ..
+  163  git add ITP270Lecture2/yyy.txt
+  164  git add ITP270Lecture2
+  165  git commit -m "Adding the file ITP270Lecture2/yyy.text"
+  166  git push
+  167  cd ITP270Lecture
+  168  cd ITP270Lecture2
+  169  rm yyy.txt
+  170  touch made.txt
+  171  cd ..
+  172  git add itp270lecture2/made.txt
+  173  git add itp270lecture2 made.txt
+  174  git add -A ITP270Lecture2/made.txt
+  175  git add -A ITP270Lecture2 made.txt
+  176  git add -A
+  177  git status
+  178  mv ITP270Lecture2 ITP270Lecture2
+  179  mv ITP270Lecture2 ITP270Lecture3
+  180  mv ITP270Lecture3 ITP270Lecture2
+  181  git status
+  182  git add -A
+  183  git status
   184  ls
-  185  cd ..
-  186  clear
-  187  ls
-  188  pwd
-  189  clear
-  190  git clone https://github.com/yu-shahpar/ITP270-Shahpar.git
-  191  ls
-  192  cd ITP270
-  193  pwd
+  185  cd ITP270Lecture2
+  186  ls
+  187  git status
+  188  git add -A
+  189  git status
+  190  ls
+  191  cd ..
+  192  git add -A
+  193  git status
   194  cd ..
-  195  pwd
-  196  clear
-  197  ls
-  198  cd ITP270Lecture
+  195  ls
+  196  rm ITP270-eDickson
+  197  rmdir ITP270-eDickson
+  198  rmdir --ignore-fail-on-non-empty ITP270-eDickson
   199  ls
-  200  cat ITP270Lecture2.py
-  201  clear
-  202  ls
-  203  help cp
-  204  man cp
-  205  clear
-  206  ls
-  207  cp ITP270Lecture2.py ~/ITP270-Shahpar/
-  208  ls
+  200  git clone
+  201  git clone https://github.com/Eggnigma/ITP270-eDickson.git
+  202  cd
+  203  ls
+  204  cd ITP270-eDickson
+  205  ls
+  206  cd ITP270Lecture2
+  207  ls
+  208  rm made.txt
   209  cd ..
-  210  ls
-  211  cd ITP270-Shahpar
-  212  ls
-  213  cd ..
-  214  pwd
-  215  clear
-  216  ls
-  217  cd ITP270-Shahpar
-  218  ls
-  219  git status
-  220  clear
-  221  git add -A
-  222  git status
-  223  git commit -m "Adding the file ITP270Lecture2.py"
-  224  git status
-  225  clear
-  226  git push
-  227  clear
-  228  history
-  229  clear
-  230  history > git_commands_class.txt
+  210  git staatus
+  211  git status
+  212  cd ITP270Lecture2
+  213  git status
+  214  git add -A
+  215  git status
+  216  cd ..
+  217  git add -A
+  218  git status
+  219  git commit -m "Adding the files ITP270Lecture2"
+  220  ls
+  221  mkdir ITP270Lecture3
+  222  mv ITP270Lecture2 ITP270Lecture3
+  223  ls
+  224  git add -A
+  225  git status
+  226  git commit -m "Adding the file ITP270Lecture3/ITP270Lecture2"
+  227  git status
+  228  cd ITP270Lecture3
+  229  ls
+  230  cd ITP270Lecture2
   231  ls
-  232  cat git_commands_class.txt
-  233  clear
-  234  nano git_commands_class.txt
+  232  mv commands.txt Lecture3.txt ../ITP270Lecture3
+  233  ls
+  234  cd ..
   235  ls
-  236  mkdir Lecture2
-  237  git status
-  238  cp git_commands_class.txt /Lecture2
-  239  clear
-  240  ll
-  241  umask 0777 Lecture2
-  242  umask 0666 Lecture2
-  243  chmod +x Lecture2
-  244  ll
-  245  chmod +w Lecture2
-  246  ll
-  247  clear
-  248  cp git_commands_class.txt ~/Lecture2
-  249  ll
-  250  cd Lecture2
-  251  ls
-  252  cd ..
-  253  python3 ITP270Lecture2.py
-  254  clear
-  255  ./ITP270Lecture2.py
-  256  ll
-  257  chmod +x ITP270Lecture2.py
-  258  ./ITP270Lecture2.py
-  259  clear
-  260  exit
-  261  clear
-  262  ls
-  263  cd ITP270-Shahpar
-  264  ls
-  265  python3 ITP270Lecture2.py
-  266  nano ITP270Lecture2.py
-  267  clear
-  268  cd ..
-  269  pwd
-  270  lsb_release -a
-  271  clear
-  272  python3 --version
-  273  git --version
-  274  sudo su - 
-  275  clear
-  276  pwd
-  277  cd ..
-  278  pwd
-  279  ls
-  280  cd ..
-  281  clear
-  282  ll
-  283  sudo su -
-  284  exit
-  285  clear
-  286  python3 --version
-  287  github --version
-  288  git --version
-  289  clear
-  290  ls
-  291  cd ITP270-Shahpar
-  292  ls
-  293  nano Lecture3.txt
-  294  clear
-  295  nano Lecture3.txt
-  296  cat Lecture3.txt
-  297  clear
-  298  git status
-  299  git add -A
-  300  git status
-  301  clear
-  302  git commit -m "Adding the Lecture3 file with folder structure"
-  303  git push
-  304  pwd
-  305  git status
-  306  clear
-  307  git push -u origin master
-  308  ls
-  309  rm -r Lecture2
-  310  git push -u origin master
-  311  git push
-  312  clear
-  313  cd ..
-  314  ls
-  315  rm -r ITP270-Shahpar
-  316  clear
-  317  ls
-  318  git clone https://github.com/yu-shahpar/ITP270-Shahpar.git
-  319  ls
-  320  clear
-  321  pwd
-  322  mkdir Movies
-  323  pwd
-  324  cd Movies
-  325  ls
-  326  clear
-  327  mkdir Action
-  328  mkdir Comedy
-  329  mkdir Drama
+  236  cd ITP270Lecture2
+  237  mv commands.txt Lecture3.txt ..
+  238  ls
+  239  cd ..
+  240  ls
+  241  rmdir ITP270Lecture2
+  242  cd ..
+  243  ls
+  244  git add -A
+  245  git status
+  246  git commit -m
+  247  git commit 
+  248  git commit -m "Adding the file ITP270Lecture3/Lecture3.txt" 
+  249  git status
+  250  git push
+  251  cd ITP270Lecture3
+  252  git add -A
+  253  git status
+  254  ls
+  255  cd ITP270Lecture2
+  256  ls
+  257  cd ..
+  258  rmdir ITP270Lecture2
+  259  ls
+  260  cd ITP270Lecture2
+  261  ls
+  262  ll
+  263  git add -A
+  264  cd ..
+  265  git status
+  266  ls
+  267  sudo rmdir ITP270Lecture2
+  268  git add -A
+  269  git status
+  270  mkdir shittt
+  271  ls
+  272  rmdir shittt
+  273  ls
+  274  rmdir ITP270Lecture2
+  275  cd ITP270Lecture2
+  276  ls
+  277  git stauts
+  278  git status
+  279  git commit -m "adding the file ITP270Lecture2"
+  280  ls
+  281  cd ..
+  282  rmdir ITP270Lecture2
+  283  git status
+  284  git commit -m "adding the file ITP270Lecture2"
+  285  git commit -m "Adding the file ITP270Lecture2"
+  286  git add -A
+  287  git commit -m "Adding the file ITP270Lecture2"
+  288  git status
+  289  rmdir ITP270Lecture2
+  290  push
+  291  git push
+  292  mv ITP270Lecture2 ..
+  293  cd ..
+  294  ;s
+  295  ls
+  296  cd ITP270Lecture2
+  297  ls
+  298  touch ass
+  299  rm ass
+  300  cd ..
+  301  rmdir ITP270Lecture2
+  302  sudo unmount 
+  303  sudo umount /itp270lecture2
+  304  fsck
+  305  cd ITP270Lecture2
+  306  fsck
+  307  cd ..
+  308  sudo rmdir -rf ITP270Lecture2
+  309  sudo rm -rf ITP270Lecture2
+  310  ls
+  311  mkdir dddd
+  312  cd dddd
+  313  touch dddd.txt
+  314  cd ..
+  315  sudo rm -rf dddd
+  316  ls
+  317  git status
+  318  git add -A
+  319  git status
+  320  git commit -m
+  321  git commit -m "Deleted ITP270Lecture3/ITP270Lecture2"
+  322  ls
+  323  cd ITP270Lecture3
+  324  ls
+  325  cd ..
+  326  cd ITP270Lecture1
+  327  ls
+  328  cd ..
+  329  git push
   330  ls
-  331  clear
-  332  touch genres.txt
-  333  ls
-  334  cd Action
-  335  mkdir scifi
-  336  cd scifi
-  337  touch terminator.txt
-  338  ls
-  339  pwd
-  340  clear
-  341  cd ..
-  342  pwd
-  343  mkdir superhero
-  344  touch batman.txt
-  345  touch matrix-reloaded.txt
-  346  touch matrix-revolutions.txt
-  347  touch matrix.txt
-  348  touch superman.txt
-  349  touch wonderwoman.txt
-  350  clear
-  351  ls
-  352  cd ..
-  353  cd Comedy
-  354  mkdir slapstick
-  355  mkdir satire
-  356  touch the-office.txt
-  357  clear
-  358  ls
-  359  pwd
-  360  clear
-  361  cd slapstick
-  362  touch waterboy.txt
-  363  touch zoolander.txt
+  331  git config --global user.name "[Elijah Dickson]"
+  332  git config --global user.email "[edd2436@email.vccs.edu]"
+  333  git config --global color.ui auto
+  334  ls
+  335  mkdir ITP270Lecture2
+  336  ls
+  337  cd ITP270Lecture2
+  338  git init
+  339  cd //
+  340  cd ~
+  341  ls
+  342  git clone https://github.com/Eggnigma/ITP270-eDickson.git
+  343  ls
+  344  clear
+  345  sudo apt upgrade
+  346  sudo apt update
+  347  ls
+  348  cd ITP270-eDickson
+  349  ls
+  350  cd ..
+  351  mv ITP270Lecture2 ITP270-eDickson
+  352  ls
+  353  cd ITP270-eDickson
+  354  ls
+  355  cd ITP270Lecture2
+  356  cs
+  357  ls
+  358  cd ..
+  359  ls
+  360  cd itp270lecture1
+  361  cd ITP270Lecture1
+  362  ls
+  363  cd ..
   364  ls
-  365  cd ..
-  366  cd satire
-  367  touch fightclub.txt
-  368  clear
-  369  mkdir the-office
-  370  rm -r the-office
-  371  mkdir the-office.txt
-  372  ls
-  373  rm -r the-office.txt
-  374  ls
-  375  clear
-  376  ls
-  377  cd ..
-  378  ls
-  379  cd Drama
-  380  clear
-  381  ls
-  382  mkdir biopic
-  383  mkdir historical
-  384  clear
-  385  ls
-  386  cd biopic
-  387  touch cleopatra.txt
-  388  touch lincoln.txt
-  389  touch frida.txt
-  390  touch notorious.txt
-  391  touch ray.txt
-  392  ls
+  365  cd ITP270Lecture2
+  366  ls
+  367  nano Lecture3.txt
+  368  ls
+  369  cd ..
+  370  ls
+  371  git status
+  372  git add -m "Adding the file ITP270Lecture2/"
+  373  git add -A "Adding the file ITP270Lecture2/"
+  374  git add -A "Adding the file ITP270Lecture2"
+  375  git add ITP270Lecture2/
+  376  git status
+  377  git add ITP270Lecture2/
+  378  git status
+  379  git add [ITP270Lecture2]
+  380  git commit -m "Adding the file ITP270Lecture2"
+  381  cd ITP270Lecture2
+  382  git add itplecture2
+  383  git add itp270lecture2
+  384  ls
+  385  cd ..
+  386  git add ITP270Lecture2/
+  387  git add ITP270Lecture2
+  388  git init
+  389  git status
+  390  git add ITP270Lecture2
+  391  git add -A ITP270Lecture2/
+  392  git add -A ITP270Lecture2
   393  cd ..
-  394  clear
-  395  cd ..
-  396  pwd
-  397  ls
-  398  ll
-  399  clear
-  400  tree
-  401  clear
-  402  cd Movies
-  403  ls
-  404  cd Drama
-  405  ls
-  406  cd historical
-  407  touch gladiator.txt
-  408  touch selma.txt
-  409  clear
-  410  ls
+  394  git init
+  395  cd ITP270-eDickson
+  396  git init
+  397  git add ITP270Lecture2
+  398  git status
+  399  git add ITP270Lecture2/
+  400  cd ..
+  401  git status
+  402  ls
+  403  cd ITP270-eDickson/
+  404  git status
+  405  git add ITP270Lecture
+  406  cd itp270lecture2
+  407  cd ITP270Lecture2
+  408  ls
+  409  git status
+  410  git add Lecture3.txt
   411  cd ..
-  412  touch genres.txt
-  413  tree
-  414  clear
-  415  pwd
-  416  cd ..
+  412  git add ITP270Lecture2/
+  413  git status
+  414  cd itp270lecture3
+  415  cd ITP270Lecture
+  416  cd ITP270Lecture2
   417  ls
-  418  ls -a
-  419  ls -l
-  420  clear
-  421  ls -t
-  422  ls -alt
-  423  ls
-  424  clear
-  425  pwd
-  426  ls
-  427  cd Movies
-  428  ls
-  429  cd Action/
-  430  ls
-  431  clear
-  432  cat superman.txt
-  433  nano superman.txt
-  434  cat superman.txt
-  435  clear
-  436  pwd
-  437  tree
-  438  cd ..
-  439  tree
-  440  clear
-  441  nano /home/kali/Movies/Comedy/satire/fight-club.txt
-  442  cat /home/kali/Movies/Comedy/satire/fight-club.txt
-  443  cp /home/kali/Movies/Action/scifi/terminator.txt /home/kali/Movies/Drama/historical
-  444  pwd
-  445  ls /home/kali/Movies/Drama/historical
-  446  clear
-  447  cd ..
-  448  pwd
-  449  ls
+  418  git status
+  419  git commit -m "Adding the file Lecture3.txt"
+  420  git status
+  421  cd..
+  422  cd ..
+  423  git status
+  424  git add ITP270Lecture2/
+  425  git status
+  426  git commit -m "Adding the file ITP270Lecture2"
+  427  ls
+  428  cd itp270lecture2
+  429  cd ITP270Lecture2
+  430  cat Lecture3.txt
+  431  ls
+  432  cat messingAround.txt
+  433  rm messingAround.txt
+  434  mkdir geography
+  435  ls
+  436  ls geography
+  437  cd geography
+  438  touch continents.txt
+  439  touch deserts.txt
+  440  touch forests.txt
+  441  touch glaciers.txt
+  442  touch islands.txt
+  443  touch lakes.txt
+  444  touch mountains.txt
+  445  touch oceans.txt
+  446  touch rivers.txt
+  447  touch volcanoes.txt
+  448  ls
+  449  tree 
+  450  cd ..
+  451  tree geography
+  452  ls
+  453  cd ITP270-eDickson
+  454  ls
+  455  mv ITP270Lecture3 ITP270Lecture2
+  456  ls
+  457  mkdir ITP270Lecture3
+  458  ls
+  459  cd ITP270Lecture3
+  460  ls
+  461  echo "Hello" > hello.txt
+  462  ls
+  463  cat hello.txt
+  464  echo "Hello World" > hello.txt
+  465  cat hello.txt
+  466  cd ~
+  467  cd ITP270-eDickson/ITP270Lecture3
+  468  mv ~/geography ~/ITP270-eDickson/ITP270Lecture3
+  469  ls
+  470  cd ~
+  471  ls
+  472  cd ITP270-eDickson/ITP270Lecture3
+  473  ls
+  474  cd geography
+  475  cd ..
+  476  rm -rf geography
+  477  ls
+  478  cd ~
+  479  git clone https://github.com/Eggnigma/ITP270-Shahpar.git
+  480  ls
+  481  cp ITP270-Shahpar/geography ITP270-eDickson/ITP270Lecture3
+  482  cp -r ITP270-Shahpar/geography ITP270-eDickson/ITP270Lecture3
+  483  cd ITP270-eDickson/ITP270Lecture3
+  484  ls
+  485  cd geography
+  486  ls
+  487  cat oceans.txt > continents.txt
+  488  ls continents.txt
+  489  cat continents.txt
+  490  cat glaciers.txt >> rivers.txt
+  491  cat rivers.txt
+  492  cat volcanoes.txt| wc
+  493  cat volcanoes.txt | wc
+  494  cat volcanoes.txt | wc | cat > volcanoes_count.txt
+  495  ls
+  496  cat volcanoes_count.txt
+  497  cat volcanoes.txt wc
+  498  cat volcanoes.txt rivers.txt
+  499  clear
+  500  ls
+  501  sort continents.txt 
+  502  cat glaciers.txt | sort > glaciers_sorted.txt
+  503  cat glaciers_sorted.txt
+  504  clear
+  505  uniq deserts.txt
+  506  cat deserts.txt
+  507  sort deserts.txt | uniq
+  508  sort deserts.txt | uniq > uniq-derserts.txt
+  509  cat uniq-derserts.txt
+  510  mv ../geography ~/ITP270-Shahpar 
+  511  cp -r ../geography ~/ITP270-Shahpar 
+  512  ls
+  513  cd ..
+  514  cd ~
+  515  ls
+  516  cd ITP270-Shahpar
+  517  ls
+  518  cd geography
+  519  ls
+  520  cd ~
+  521  cd ITP270-eDickson/ITP270Lecture3/
+  522  rm -rf geography
+  523  l
+  524  ls
+  525  cd ../
+  526  cd ~
+  527  cd ITP270-Shahpar
+  528  git status
+  529  git add -A
+  530  git status
+  531  git commit -m "Adding files in geography"
+  532  git status
+  533  git push https://github.com/Eggnigma/ITP270-Shahpar.git
+  534  clear
+  535  cd ~
+  536  cd ITP270-eDickson
+  537  cd ITP270Lecture3
+  538  cd ..?
+  539  cd ../
+  540  cd ITP270Lecture2
+  541  ls
+  542  cd ../
+  543  cd ITP270Lecture3
