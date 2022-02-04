@@ -1,1 +1,10 @@
 "Hello, I am nano"
+
+echo "Hello $USER"
+
+alias p="pwd"
+alias ll="ls -la"
+
+export USER="Elijah Dickson"
+export PS1=">> "
+
