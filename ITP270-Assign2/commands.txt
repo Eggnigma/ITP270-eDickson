@@ -1,0 +1,164 @@
+    1  ls
+    2  git --version
+    3  sudo apt upgrade
+    4  sudo apt update
+    5  clear
+    6  cd ITP270-Shahpar/geography
+    7  cat mountains.txt
+    8  grep mount mountains.txt
+    9  grep -i mount mountains.txt
+   10  grep -i s *.txt
+   11  grep -i s ?.txt
+   12  cd ../..
+   13  grep -i Artic ~/ITP270-Shahpar/geography
+   14  grep -R Artic ~/ITP270-Shahpar/geography
+   15  grep -i Artic ~/ITP270-Shahpar/geography
+   16  grep -R Artic ~/ITP270-Shahpar/geography
+   17  grep -R Mounts ~/ITP270-Shahpar/geography
+   18  grep -R Mounts ~/ITP270-Shahpar/geography/*.txt
+   19  grep -Rl Mounts ~/ITP270-Shahpar/geography/*.txt
+   20  grep -Rl Mount ~/ITP270-Shahpar/geography/*.txt
+   21  grep -R Mount ~/ITP270-Shahpar/geography/*.txt
+   22  grep -R Arctic ~/ITP270-Shahpar/geography
+   23  grep -Rl Arctic ~/ITP270-Shahpar/geography
+   24  grep -Rl Arctic ~/ITP270-Shahpar
+   25  grep -Rl Arctic ~
+   26  grep -Ri island ~
+   27  cd ITP270-Shahpar/geography
+   28  sed 's/snow/rain/' forests.txt
+   29  sed 'ss/snow/rain/' forests.txt
+   30  sed 'e/snow/rain/' forests.txt
+   31  sed 'g/snow/rain/' forests.txt
+   32  sed 's/snow/rain/g' forests.txt
+   33  sed -i 's/snow/rain/g' forests.txt
+   34  cat forests.txt
+   35  sed --help
+   36  sed -i 's/rain/snow/g' forests.txt
+   37  cat forests.txt
+   38  sed 's/snow/rain/g' forests.txt | > sed-forests.txt
+   39  cat sed-forests.txt
+   40  cat fores
+   41  cat forests.txt
+   42  grep --help
+   43  grep -a mount mountains.txt
+   44  grep -R mount mountains.txt
+   45  cat mountains.txt | sort
+   46  echo "GANG" >> mountains.txt
+   47  cat "GANG" >> mountains.txt
+   48  sed --help
+   49  uniq --help
+   50  echo "GANG" < mountains.txt
+   51  echo "GANG" > mountains.txt
+   52  cat mountains.txt
+   53  cd ../..
+   54  rm -rf ITP270-Shahpar
+   55  git clone https://github.com/Eggnigma/ITP270-Shahpar.git
+   56  ls
+   57  cd ITP270-eDickson
+   58  cd ITP270Lecture1
+   59  ls
+   60  ./ITP270firstScript.py
+   61  sudo ./ITP270firstScript.py
+   62  cat ITP270firstScript.py
+   63  python3 --version
+   64  git --
+   65  git --version
+   66  ls
+   67  cd ../..
+   68  ls
+   69  mkdir music1
+   70  cd music1
+   71  mkdir artists
+   72  ls
+   73  cd artists
+   74  touch folk.txt
+   75  touch hiphop.txt
+   76  touch jazz.txt
+   77  touch rock.txt
+   78  tree
+   79  cd ../
+   80  tree
+   81  echo "Kendrick Lamar" > /music1/hiphop.txt
+   82  echo "Kendrick Lamar" > ~/music1/hiphop.txt
+   83  ls
+   84  rm hiphop.txt
+   85  echo "Kendrick Lamar" > ~/music1/artists/hiphop.txt
+   86  cd artists
+   87  cat hiphop.txt
+   88  cd ../..
+   89  nano ~/.bash_profile
+   90  cat ~/.bash_profile
+   91  soruce ~/.bash_profile
+   92  source ~/.bash_profile
+   93  source ~/ITP270-eDickson/ITP270Lecture1/ITP270firstScript.py
+   94  source ~/ITP270-eDickson/ITP270Lecture1/ITP270firstScript.py/
+   95  cd ITP270-eDickson/ITP270Lecture1
+   96  source ITP270firstScript.py
+   97  pd
+   98  cd ../..
+   99  cd music
+  100  cd music1
+  101  cd artists
+  102  ls
+  103  cd ../..
+  104  nano ~/.bash_profile
+  105  source ~/.bash_profile
+  106  pd
+  107  nano ~/.bash_profile
+  108  source ~/.bash_profile
+  109  pd
+  110  cat >> gay,tx
+  111  ls
+  112  rm gay,tx
+  113  cat > gay.txt
+  114  ls
+  115  rm gay.txt
+  116  clear
+  117  nano ~/.bash_profile 
+  118  source ~/.bash_profile
+  119  git pro
+  120  nano ~/.bash_profile 
+  121  source ~/.bash_profile
+  122  gitpro
+  123  exit
+  124  mkdir ITP270-Assign2
+  125  cd ITP270-Assign2
+  126  nano hello.tx
+  127  rm hello.tx
+  128  nano hello.txt
+  129  nano ~/.bash_profile
+  130  source ~/.bash_profile
+  131  Elijah Dickson
+  132  PS1
+  133  echo PS1
+  134  USER
+  135  clear
+  136  source ~/.bash_profile
+  137  p
+  138  ll
+  139  echo USER
+  140  echo "USER"
+  141  nano ~/.bash_profiel
+  142  rm ~/.bash_profiel
+  143  nano ~/.bash_profile
+  144  source ~/.bash_profile 
+  145  USER
+  146  USER="Elijah Dickson"
+  147  USER
+  148  echo USER
+  149  echo "USER"
+  150  echo HOME
+  151  echo PATH
+  152  env
+  153  PS1
+  154  echo $USER
+  155  nano ~/.bash_profile
+  156  soruce ~/.bash_profile
+  157  source ~/.bash_profile
+  158  echo $PS1
+  159  echo $HOME
+  160  echo $PATH
+  161  echo $who
+  162  echo $WHO
+  163  echo $WHOAMI
+  164  env
